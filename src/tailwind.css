@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active-btn{
+    @apply
+    bg-pink-600
+    text-white
+}
+
+.active {
+    @apply 
+    block
+}
+
+.c-mainBtn {
+    @apply bg-lime-600
+    hidden
+}
+
+.light-mode {
+    @apply
+    bg-pink-600
+}
