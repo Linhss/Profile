@@ -7,7 +7,7 @@ module.exports = {
         custom:'-1'
       },
       height:{
-        custom:"961px"
+        custom:"900px"
       },
       gridTemplateColumns:{
         custom:'40px 1fr'
