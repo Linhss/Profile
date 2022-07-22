@@ -17,22 +17,21 @@
         <!-- header  -->
         <header id="home"
             class="section active hidden p-0 text-white
-                                lg:h-custom lg:-translate-y-full lg:scale-0 lg:transition-all lg:ease-in-out lg:transform lg:translate-y-0 lg:scale-100 ">
+                                lg:h-custom lg:transition-all lg:ease-in-out ">
             <!-- header content  -->
             <div class="flex flex-col pb-24 
-                        lg:grid lg:grid-cols-2 lg:h-screen">
+                        lg:grid lg:grid-cols-2 lg:h-screen ">
                 <!-- left-header  -->
-                <div class="order-2 
+                <div class="order-2
                             lg:order-1 lg:flex lg:items-center lg:relative">
                     <!-- h-shape  -->
-                    <div
-                        class="lg:transition-all lg:ease-in-out lg:w-2/3  lg:bg-lime-600 lg:absolute lg:left-0 lg:top-0 lg:z-custom lg:h-screen">
+                    <div class="lg:w-2/3 md:h-custom lg:h-screen lg:bg-lime-600 lg:absolute lg:left-0 lg:top-0 lg:z-custom ">
                     </div>
                     <!-- img  -->
                     <div class="my-0 mx-auto w-5/6
                                 lg:ml-28 mb-20 md:mb-0 ">
                         <img src="./img/anh home.jpg" alt=""
-                            class=" w-full h-full object-cover transition-all ease-in-out rounded-3xl border-lime-800 border-4 lg:border-gray-600 lg:rounded-full">
+                            class=" w-full h-full object-cover transition-all ease-in-out rounded-3xl border-lime-800 border-4 lg:border-gray-600 lg:rounded-full md:m-custom lg:m-0">
                     </div>
                 </div>
                 <!-- right header  -->
@@ -88,7 +87,7 @@
                 <div class="container grid-cols-1 mt-24 
                                 lg:grid lg:grid-cols-2 lg:pt-14 lg:pb-20">
                     <!-- left about  -->
-                    <div class=" pr-0 lg:pr-20">
+                    <div class=" pr-0 lg:-ml-40 xl:ml-0">
                         <h4 class=" text-4xl uppercase">Information About me</h4>
                         <p class="pl-0 lg:leading-8 lg:p-4">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -112,7 +111,7 @@
                         </div>
                     </div>
                     <!-- right about  -->
-                    <div class="md:grid-cols-1 md:pt-10 lg:grid lg:grid-cols-2 lg:gap-8">
+                    <div class="md:grid-cols-1 md:pt-10 lg:grid lg:grid-cols-2 lg:gap-8 lg:-mr-40 lg:-mt-16 xl:mr-0 xl:mt-0 ">
                         <!-- about item  -->
                         <div
                             class=" border border-gray-600 rounded-md transition-all shadow-inner hover:cursor-default hover:transform hover:-translate-y-1.5 hover:shadow-inner hover:border hover:border-lime-500 my-8 lg:my-0">
@@ -129,7 +128,9 @@
                             </div>
                         </div>
                         <div
-                            class=" border border-gray-600 rounded-md md:transition-all md:shadow-inner hover:cursor-default hover:transform hover:-translate-y-1.5 hover:shadow-inner hover:border hover:border-lime-500 my-8 lg:my-0">
+                            class=" border border-gray-600 rounded-md md:transition-all md:shadow-inner
+                             hover:cursor-default hover:transform hover:-translate-y-1.5 hover:shadow-inner hover:border
+                             hover:border-lime-500 my-8 lg:my-0 ">
                             <!-- abt text  -->
                             <div class=" p-6 flex flex-col hover:text-yellow-400 cursor-pointer">
                                 <!-- large-text  -->
@@ -409,8 +410,8 @@
             </div>
         </section>
         <!-- portfolio -->
-        <section id="portfolio"
-            class="section md:min-h-full md:w-full absolute md:left-0 md:top-0 md:px-72 md:py-12 md:transform hidden ">
+        <section id="portfolio" class="section hidden
+        lg:min-h-full lg:w-full absolute lg:left-0 lg:top-0 md:px-72 md:py-12 lg:transition ">
             <!-- section 3 -->
             <div class="transform translate-y-0 scale-100 text-white mt-16 md:mt-0">
                 <!-- main title  -->
@@ -424,13 +425,16 @@
                     </h2>
                 </div>
                 <!-- port text  -->
-                <p class=" px-0 py-8 text-center">
+                <p class=" px-0 py-20 text-center">
                     Here is some of my work that I've done in various programming languages.
                 </p>
                 <!-- portfolios -->
-                <div class=" container lg:grid lg:grid-cols-3 lg:gap-8 lg:mt-12">
+                <div class=" container grid grid-cols-1 gap-8 px-8
+                             lg:grid lg:grid-cols-2 lg:gap-8 lg:px-0
+                             md:grid md:grid-cols-1 md:gap-8 md:px-0 
+                             xl:grid xl:grid-cols-3 xl:gap-8 xl:px-0">
                     <!-- portfolio item 1  -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 md:mb-10 ">
+                    <div class=" relative rounded-2xl group">
                         <!-- image -->
                         <div class="w-full h-auto object-cover">
                             <img src="./img/port1.jpg" alt="" class="rounded-2xl ">
@@ -460,7 +464,7 @@
                         </div>
                     </div>
                     <!-- portfolio item 2  -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 md:mb-10 ">
+                    <div class=" relative rounded-2xl group">
                         <!-- image -->
                         <div class="w-full h-auto object-cover">
                             <img src="./img/port2.jpg" alt="" class="rounded-2xl ">
@@ -490,7 +494,7 @@
                         </div>
                     </div>
                     <!-- portfolio item 3 -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 md:mb-10 ">
+                    <div class=" relative rounded-2xl group">
                         <!-- image -->
                         <div class="w-full h-auto object-cover">
                             <img src="./img/port3.jpg" alt="" class="rounded-2xl ">
@@ -520,7 +524,7 @@
                         </div>
                     </div>
                     <!-- portfolio item 4 -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 md:mb-10 ">
+                    <div class=" relative rounded-2xl group">
                         <!-- image -->
                         <div class="w-full h-auto object-cover">
                             <img src="./img/port4.jpg" alt="" class="rounded-2xl ">
@@ -550,7 +554,7 @@
                         </div>
                     </div>
                     <!-- portfolio item 5 -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 md:mb-10 ">
+                    <div class=" relative rounded-2xl group">
                         <!-- image -->
                         <div class="w-full h-auto object-cover">
                             <img src="./img/port5.jpg" alt="" class="rounded-2xl ">
@@ -580,7 +584,7 @@
                         </div>
                     </div>
                     <!-- portfolio item 6 -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 md:mb-10 ">
+                    <div class=" relative rounded-2xl group">
                         <!-- image -->
                         <div class="w-full h-auto object-cover">
                             <img src="./img/port2.jpg" alt="" class="rounded-2xl ">
@@ -610,7 +614,7 @@
                         </div>
                     </div>
                     <!-- portfolio item 7 -->
-                    <div class=" relative rounded-2xl group my-10 mx-12 md:mx-0 md:my-0 mb-44 ">
+                    <div class=" relative rounded-2xl group mb-44 ">
                         <!-- image -->
                         <div class="w-auto h-auto object-cover">
                             <img src="./img/port7.jpg" alt="" class="rounded-2xl ">
@@ -644,7 +648,7 @@
         </section>
         <!-- blogs -->
         <section id="blogs"
-            class="section md:min-h-full md:w-full absolute md:left-0 md:top-0 md:px-72 md:py-12 md:transform hidden">
+            class="section md:min-h-full md:w-full absolute md:left-0 md:top-0 md:px-72 md:py-12 hidden">
             <!-- section  -->
             <div class=" transform translate-y-0 scale-100 text-white ">
                 <!-- blogs-content  -->
@@ -661,11 +665,12 @@
                         </h2>
                     </div>
                     <!-- blogs -->
-                    <div
-                        class=" container  lg:grid lg:grid-cols-3 lg:gap-8 lg:mt-12 grid-cols-1 pb-24 lg:pb-0 mt-24 md:grid-cols-2 md:pb-12 md:mt-24 ">
+                    <div class=" container  lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-36 
+                                 grid grid-cols-1 gap-8  mt-24 
+                                 md:grid md:grid-cols-2 md:pb-12 md:mt-24
+                                 xl:grid xl:grid-cols-3 xl:gap-8 xl:mt-24 px-8">
                         <!-- blog 1 -->
-                        <div
-                            class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out m-10 md:m-0 md:mb-10 ">
+                        <div class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out md:m-0 md:mb-10 ">
                             <img src="./img/port6.jpg" alt=""
                                 class=" hover:grayscale-0 hover:scale-110 hover:shadow-inner w-full h-72 object-cover rounded-t-md grayscale transition-all ease-in-out ">
                             <!-- blog text  -->
@@ -681,8 +686,7 @@
                             </div>
                         </div>
                         <!-- blog 2 -->
-                        <div
-                            class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out m-10 md:m-0 md:mb-10 ">
+                        <div class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out md:m-0 md:mb-10 ">
                             <img src="./img/blog1.jpg" alt=""
                                 class=" hover:grayscale-0 hover:scale-110 hover:shadow-inner w-full h-72 object-cover rounded-t-md grayscale transition-all ease-in-out ">
                             <!-- blog text  -->
@@ -698,8 +702,7 @@
                             </div>
                         </div>
                         <!-- blog 3 -->
-                        <div
-                            class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out m-10 md:m-0 md:mb-10 ">
+                        <div class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out md:m-0 md:mb-10 ">
                             <img src="./img/blog2.jpg" alt=""
                                 class=" hover:grayscale-0 hover:scale-110 hover:shadow-inner w-full h-72 object-cover rounded-t-md grayscale transition-all ease-in-out ">
                             <!-- blog text  -->
@@ -715,8 +718,7 @@
                             </div>
                         </div>
                         <!-- blog 4 -->
-                        <div
-                            class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out m-10 md:m-0 md:mb-10 ">
+                        <div class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out md:m-0 md:mb-10 ">
                             <img src="./img/blog3.jpg" alt=""
                                 class=" hover:grayscale-0 hover:scale-110 hover:shadow-inner w-full h-72 object-cover rounded-t-md grayscale transition-all ease-in-out ">
                             <!-- blog text  -->
@@ -732,8 +734,7 @@
                             </div>
                         </div>
                         <!-- blog 5 -->
-                        <div
-                            class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out m-10 md:m-0 md:mb-10 ">
+                        <div class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out md:m-0 md:mb-10 ">
                             <img src="./img/port1.jpg" alt=""
                                 class=" hover:grayscale-0 hover:scale-110 hover:shadow-inner w-full h-72 object-cover rounded-t-md grayscale transition-all ease-in-out ">
                             <!-- blog text  -->
@@ -749,8 +750,7 @@
                             </div>
                         </div>
                         <!-- blog 6 -->
-                        <div
-                            class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out m-10 md:m-0 md:mb-10 mb-20 ">
+                        <div class=" relative bg-gray-500 rounded-md shadow-sm transition-all ease-in-out hover:shadow-md hover:-translate-y-1 hover:transition-all hover:ease-in-out md:m-0 md:mb-10 mb-24 ">
                             <img src="./img/port3.jpg   " alt=""
                                 class=" hover:grayscale-0 hover:scale-110 hover:shadow-inner w-full h-72 object-cover rounded-t-md grayscale transition-all ease-in-out ">
                             <!-- blog text  -->
@@ -772,7 +772,7 @@
         </section>
         <!-- contact -->
         <section id="contact"
-            class="section lg:min-h-full lg:w-full absolute lg:left-0 lg:top-0 lg:px-72 lg:py-12 lg:transform hidden ">
+            class="section lg:min-h-full lg:w-full absolute lg:left-0 lg:top-0 lg:px-72 lg:py-12 hidden ">
             <!-- section 5 -->
             <div class=" transform translate-y-0 scale-100 text-white ">
                 <!-- contact container  -->
@@ -790,7 +790,7 @@
                         </h2>
                     </div>
                     <!-- contact content con -->
-                    <div class="container flex-col p-12 lg:flex lg:flex-row lg:pt-14">
+                    <div class="container flex-col p-12 xl:flex xl:flex-row xl:pt-14">
                         <!-- left contact  -->
                         <div class=" flex-1">
                             <h4 class=" mt-4 text-4xl">
@@ -801,7 +801,7 @@
                                 excepturi perspiciatis quas quasi.
                             </p>
                             <!-- contact info -->
-                            <div class="text-xs md:text-sm lg:text-base">
+                            <div class="text-xs md:text-sm lg:text-base ">
                                 <div class="flex items-center justify-between">
                                     <!-- contact item  -->
                                     <div class="grid grid-cols-custom ">
@@ -840,7 +840,7 @@
                                     </div>
                                     <p>
                                         <span>
-                                            : Trường ĐH Kinh Doanh <br> Và Công Nghệ Hà Nội
+                                            : Trường ĐH Kinh Doanh Và <br> Công Nghệ Hà Nội
                                         </span>
                                     </p>
                                 </div>

@@ -11,7 +11,8 @@
 
 .active {
     @apply 
-    block
+    block 
+    animate-scaleAnim
 }
 
 .c-mainBtn {

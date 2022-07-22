@@ -19,7 +19,7 @@ function PageTransitions(){
         const id = e.target.dataset.id; 
         if(id){
             //resmove selected from the  other btns
-            sectBtns.forEach((btn) =>{
+             sectBtns.forEach((btn) =>{
                 btn.classList.remove('active')
             })
              
